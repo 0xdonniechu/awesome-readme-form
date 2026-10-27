@@ -1,39 +1,39 @@
 # awesome-readme-form
 
-Form README cá nhân — chắt từ 3 repo nổi tiếng + kinh nghiệm thực tế, để lần sau viết README không phải nghĩ lại từ đầu.
+Personal README playbook — distilled from 3 famous repos plus hard-earned experience, so the next README writes itself.
 
-## Chắt từ đâu
+## Distilled from
 
-| Nguồn | ★ | Lấy cái gì |
+| Source | ★ | What I took |
 | --- | --- | --- |
-| [Best-README-Template](https://github.com/othneildrew/Best-README-Template) | 16k | Khung mục chuẩn: shields → logo → About → Built With → Getting Started → Usage → Roadmap → Contributing → License → Contact |
-| [awesome-readme](https://github.com/matiassingers/awesome-readme) | 21k | 141 README mẫu — đúc ra quy tắc chung: logo/banner, ảnh demo ngay đầu, badges, TOC, install copy-paste được |
-| [dbader/readme-template](https://github.com/dbader/readme-template) | 2k | Bản tối giản cho repo nhỏ: blurb 1–2 câu, install, usage, release history |
+| [Best-README-Template](https://github.com/othneildrew/Best-README-Template) | 16k | The standard section skeleton: shields → logo → About → Built With → Getting Started → Usage → Roadmap → Contributing → License → Contact |
+| [awesome-readme](https://github.com/matiassingers/awesome-readme) | 21k | 141 sample READMEs — boiled down to the common rules: logo/banner, demo image up front, badges, TOC, copy-pasteable install |
+| [dbader/readme-template](https://github.com/dbader/readme-template) | 2k | The minimal version for small repos: 1–2 sentence blurb, install, usage, release history |
 
-## Checklist (áp vào repo mới, xóa mục không cần)
+## Checklist (apply to a new repo, delete what you don't need)
 
-- [ ] Shields (badges) đầu file: build, version, downloads, license — lấy ở [shields.io](https://shields.io)
-- [ ] Logo/banner giữa trang + tên + mô tả 1–2 câu + link Demo / Report Bug / Request Feature
-- [ ] Table of Contents gọn (dùng `<details>` nếu dài) + link back to top cuối mỗi mục
-- [ ] About: nêu vấn đề giải quyết + ảnh/GIF demo NGAY — không để chữ khô
-- [ ] Features: gạch đầu dòng hướng người dùng — cấm chi tiết nội bộ (tên lib, polling, font, panel About…)
-- [ ] Built With: framework/lib chính, dạng badge
-- [ ] Getting Started: Prerequisites + Installation copy-paste chạy được, chia theo OS nếu cần
-- [ ] Usage: ví dụ ngắn + link docs đầy đủ
-- [ ] Screenshots: bảng 2 cột, ghim `width` (xem mục Ảnh)
-- [ ] Roadmap hoặc Release history (chọn 1, repo nhỏ thì bỏ cả 2 cũng được)
-- [ ] Contributing (5 bước fork → PR), License, Contact
-- [ ] Link/badge dùng kiểu reference `[][id]`, khai báo cuối file cho gọn
+- [ ] Shields (badges) at the top: build, version, downloads, license — from [shields.io](https://shields.io)
+- [ ] Centered logo/banner + name + 1–2 sentence description + Demo / Report Bug / Request Feature links
+- [ ] Compact Table of Contents (use `<details>` when long) + back-to-top link at the end of each section
+- [ ] About: state the problem it solves + a demo image/GIF RIGHT AWAY — no dry text walls
+- [ ] Features: user-facing bullets — no internals (lib names, polling, fonts, About panels…)
+- [ ] Built With: major frameworks/libs, as badges
+- [ ] Getting Started: Prerequisites + Installation that runs on copy-paste, split by OS when needed
+- [ ] Usage: short example + link to full docs
+- [ ] Screenshots: 2-column table, pinned `width` (see Images)
+- [ ] Roadmap or Release history (pick one; small repos can skip both)
+- [ ] Contributing (5-step fork → PR), License, Contact
+- [ ] Links/badges in reference style `[][id]`, declared at the bottom to stay tidy
 
-## Ảnh (kinh nghiệm xương máu)
+## Images (hard-earned lessons)
 
-- Bảng markdown KHÔNG tự cân ảnh — luôn ghim cỡ: `<img src="..." width="400" alt="...">`
-- Ảnh chụp màn hình khổ lớn thì resize trước khi commit: `sips -Z 1600 in.png --out out.png`
-- Tính năng động → 1 GIF demo thay cho 5 ảnh tĩnh
-- 2 ảnh cạnh nhau thì cùng `width`; ảnh đơn để full-width cũng được
+- Markdown tables do NOT balance images — always pin a size: `<img src="..." width="400" alt="...">`
+- Resize large screenshots before committing: `sips -Z 1600 in.png --out out.png`
+- Animated feature → 1 GIF demo instead of 5 static shots
+- Side-by-side images share one `width`; a single image can go full-width
 
-## Cách dùng
+## How to use
 
-1. Copy [TEMPLATE.md](TEMPLATE.md) thành `README.md` của repo mới
-2. Điền từng mục theo checklist, xóa mục thừa
-3. Đọc lại 1 lượt với con mắt người lạ: hiểu repo làm gì trong 10 giây không?
+1. Copy [TEMPLATE.md](TEMPLATE.md) into the new repo as `README.md`
+2. Fill in each section per the checklist, delete the rest
+3. Re-read once through a stranger's eyes: is the repo's purpose clear in 10 seconds?
